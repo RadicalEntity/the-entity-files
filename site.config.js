@@ -6,9 +6,8 @@ const CONFIG = {
     role: "Designer and Developer",
     bio: "I want to be the world's greatest game developer👾",
     email: "xandria.crosland@gmail.com",
-    linkedin: "Xandria Crosland",
+    linkedin: "xandria-crosland007",
     github: "RadicalEntity",
-    instagram: "",
   },
   projects: [
     {
@@ -28,7 +27,12 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    
+    keywords:[
+      "Blog", "Portfolio", "Notion", "Computer Science Research", "Game Development", "Game Design", "Game Research",
+      "Gamification", "Computer Graphics", "Data Visualization", "3D Modeling", "Technical Art", "Graphic Design",
+      "UX/UI", "User Centered Design", "UX Research", "Interactive Media", "Generative AI", "Artificial Intelligence", 
+      "Game AI", "Human-AI Interaction", "Academic Research"
+    ]
   },
   
   // notion configuration (required)
