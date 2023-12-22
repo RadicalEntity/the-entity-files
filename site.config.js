@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Xandria Crosland",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Designer and Developer",
     bio: "I want to be the world's greatest game developer👾",
     email: "xandria.crosland@gmail.com",
@@ -17,8 +17,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "the entity files",
-    description: "welcome to the entity files.",
+    title: "The Entity Files",
+    description: "Welcome to The Entity Files.",
   },
 
   // CONFIG configration (required)
