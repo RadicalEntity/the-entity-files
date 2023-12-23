@@ -48,6 +48,7 @@ const StyledWrapper = styled.div`
     .top {
       position: relative;
       width: 100%;
+      clip-clip-path: circle(50%);
       &:after {
         content: "";
         display: block;
@@ -61,13 +62,12 @@ const StyledWrapper = styled.div`
       align-items: center;
       .name {
         font-size: 1.25rem;
-        line-height: 1.75rem;
-        font-style: italic;
+        line-height: 1.5rem;
         font-weight: 700;
       }
       .role {
         margin-bottom: 1rem;
-        font-size: 0.875rem;
+        font-size: 0.75rem;
         line-height: 1.25rem;
         color: ${({ theme }) => theme.colors.gray11};
       }
@@ -75,7 +75,7 @@ const StyledWrapper = styled.div`
         margin-bottom: 0.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
-        align-items: center;
+        text-align: center;
       }
     }
   }
