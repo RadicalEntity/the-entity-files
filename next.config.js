@@ -1,5 +1,24 @@
 module.exports = {
   images: {
-    domains: ['www.notion.so', 'lh5.googleusercontent.com', 's3-us-west-2.amazonaws.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.notion.so',
+        port: '',
+        pathname: '/**', // Adjust the pathname as needed
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**', // Adjust the pathname as needed
+      },
+      {
+        protocol: 'https',
+        hostname: 's3-us-west-2.amazonaws.com',
+        port: '',
+        pathname: '/**', // Adjust the pathname as needed
+      },
+    ],
   },
-}
+};

@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Xandria Crosland",
     image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Designer and Developer",
-    bio: "I want to be the world's greatest game developer👾",
+    bio: "I want to become an industry leading game developer ⚛︎",
     email: "xandria.crosland@gmail.com",
     linkedin: "xandria-crosland007",
     github: "RadicalEntity",
@@ -68,14 +68,14 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
+      appid: "e2c47dd5-e3cb-44b4-a47e-162ee8ddef30", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 1, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
