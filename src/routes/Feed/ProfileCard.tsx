@@ -47,8 +47,8 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
-      width: 100%;
-      clip-clip-path: circle(50%);
+      width: 90%;
+      clip-path: circle(50%);
       &:after {
         content: "";
         display: block;
@@ -67,13 +67,13 @@ const StyledWrapper = styled.div`
       }
       .role {
         margin-bottom: 1rem;
-        font-size: 0.75rem;
+        font-size: 0.875rem;
         line-height: 1.25rem;
         color: ${({ theme }) => theme.colors.gray11};
       }
       .bio {
         margin-bottom: 0.5rem;
-        font-size: 0.875rem;
+        font-size: 0.75rem;
         line-height: 1.25rem;
         text-align: center;
       }
