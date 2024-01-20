@@ -9,7 +9,7 @@ const ServiceCard: React.FC = () => {
   return (
     <>
       <StyledTitle>
-        🌟 Service
+        🌟 Notion Blog Template
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.projects.map((project, idx) => (

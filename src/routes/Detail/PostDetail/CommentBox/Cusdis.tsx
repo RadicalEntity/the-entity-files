@@ -37,6 +37,15 @@ const Cusdis: React.FC<Props> = ({ id, slug, title }) => {
     }
   }, [onDocumentElementChange])
 
+  useEffect(() => {
+    // Update the theme of the comment section whenever the scheme state changes
+    if (scheme === "light") {
+      document.documentElement.classList.remove("dark");
+    } else {
+      document.documentElement.classList.add("dark");
+    }
+  }, [scheme]);
+
   return (
     <>
       <StyledWrapper id="comments">

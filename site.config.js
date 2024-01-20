@@ -2,17 +2,17 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Xandria Crosland",
-    image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/profile.jpeg",
     role: "Designer and Developer",
-    bio: "I want to become an industry leading game developer ⚛︎",
+    bio: "Talks about video games, extended reality, machine learning, and more",
     email: "xandria.crosland@gmail.com",
     linkedin: "xandria-crosland007",
     github: "RadicalEntity",
   },
   projects: [
     {
-      name: `the-entity-files`,
-      href: "https://github.com/RadicalEntity/the-entity-files",
+      name: `morethan-log`,
+      href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)

@@ -10,6 +10,7 @@ const ThemeToggle: React.FC<Props> = () => {
 
   const handleClick = () => {
     setScheme(scheme === "light" ? "dark" : "light")
+    // window.location.reload()
   }
 
   return (
