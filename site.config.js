@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "Talks about video games, extended reality, machine learning, and more",
     email: "xandria.crosland@gmail.com",
     linkedin: "xandria-crosland007",
-    github: "RadicalEntity",
+    github: "re-xandria",
   },
   projects: [
     {
