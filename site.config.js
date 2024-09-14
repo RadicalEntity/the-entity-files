@@ -19,6 +19,7 @@ const CONFIG = {
   blog: {
     title: "The Entity Files",
     description: "Welcome to The Entity Files.",
+    scheme: "dark",
   },
 
   // CONFIG configration (required)
