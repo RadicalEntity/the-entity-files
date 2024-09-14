@@ -1,11 +1,6 @@
 import styled from "@emotion/styled"
 import React from "react"
 import {
-<<<<<<< HEAD
-  AiOutlineGithub,
-  AiOutlineMail,
-=======
->>>>>>> upstream/main
   AiFillLinkedin,
   AiOutlineGithub,
   AiOutlineInstagram,
@@ -17,13 +12,9 @@ import { Emoji } from "src/components/Emoji"
 const ContactCard: React.FC = () => {
   return (
     <>
-<<<<<<< HEAD
-      <StyledTitle>💬 Connect</StyledTitle>
-=======
       <StyledTitle>
-        <Emoji>💬</Emoji> Contact
+        <Emoji>💬</Emoji> Connect
       </StyledTitle>
->>>>>>> upstream/main
       <StyledWrapper>
         {CONFIG.profile.github && (
           <a

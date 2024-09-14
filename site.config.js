@@ -17,14 +17,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-<<<<<<< HEAD
     title: "The Entity Files",
     description: "Welcome to The Entity Files.",
-=======
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
->>>>>>> upstream/main
   },
 
   // CONFIG configration (required)
